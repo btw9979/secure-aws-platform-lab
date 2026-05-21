@@ -1,0 +1,23 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+tfplan
+tfplan.json
+*.tfplan
+
+# Local Terraform variables
+terraform.tfvars
+*.auto.tfvars
+
+# Local script config
+*.conf
+
+# Discovery output
+discovery/*.json
+discovery/archive/*.json
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store

@@ -1,0 +1,5 @@
+#!/bin/bash
+
+VPC_ID="vpc-xxxxxxxxxxxxxxxxx"
+PROFILE_NAME="your-aws-profile"
+OUTPUT_TYPE="json"
