@@ -68,3 +68,12 @@ secure-aws-platform-lab/
       README.md
   docs/
     network-rebuild-validation.md
+
+## Foundation for Downstream Labs
+
+This project exposes Terraform outputs that allow future infrastructure labs to consume the AWS network foundation without recreating it.
+
+The first planned downstream consumer is:
+
+```text
+terraform-aws-kubeadm-cka-lab
