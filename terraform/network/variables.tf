@@ -32,3 +32,14 @@ variable "private_subnet_cidr" {
   type        = string
   default     = "10.0.2.0/24"
 }
+variable "project_name" {
+  description = "Project name used for tagging and downstream foundation identification."
+  type        = string
+  default     = "secure-aws-platform-lab"
+}
+
+variable "environment" {
+  description = "Environment name for this lab foundation."
+  type        = string
+  default     = "lab"
+}

@@ -28,8 +28,8 @@ resource "aws_subnet" "private" {
   map_public_ip_on_launch = false
 
   tags = {
-    Name                            = "secure-aws-lab-subnet-private"
-    Tier                            = "private"
+    Name                                   = "secure-aws-lab-subnet-private"
+    Tier                                   = "private"
     "kubernetes.io/cluster/secure-aws-lab" = "owned"
   }
 }
